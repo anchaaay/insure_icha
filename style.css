@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 32px 88px;
+}
+
+img.logo {
+    width: auto;
+    height: auto;
+    padding-left: 24px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+nav li {
+    display: inline;
+    margin: 8px;
+    color: hsl(273, 4%, 51%);
+}
+
+li.plans {
+    color: hsl(270, 9%, 17%);
+    border: 1.5px solid hsl(270, 9%, 17%);
+    padding: 8px 16px;
+}
+
+h1 {
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+p, h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Karla', sans-serif;
+    width: 24%;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.banner {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: 520px;
+    background-color: hsl(256, 26%, 20%);
+    width: 100%;
+}
+
+.right-banner-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    z-index: 1;
+}
+
+.caption {
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.caption-line {
+    width: 23%;
+    border-top: 1px solid white;
+    margin-left: 16px;
+    padding-bottom: 32px;
+}
+
+.caption-text {
+    margin: auto;
+    padding: 0;
+    width: 95%;
+}
+
+.caption-text h1 {
+    width: 85%;
+    font-weight: 400;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+
+.caption-text p {
+    padding-bottom: 32px;
+}
+
+.banner-image {
+    width: 35%;
+    margin-right: 150px;
+}
+
+.img-intro {
+    position: absolute;
+    padding-top: 72px;
+    width: 37%;
+    height: auto;
+}
+
+.banner, .find-out{
+    color: white;
+}
+
+.content {
+    margin-top: 200px;
+    position: relative;
+}
+
+.content-line {
+    width: 11%;
+    border-top: 1.5px solid hsl(289, 15%, 79%);
+    margin-left: 88px;
+    padding-bottom: 32px;
+} 
+
+.content p, footer p{
+    color: hsl(273, 4%, 51%);
+}
+
+.content h1 {
+    margin-left: 88px;
+    padding-bottom: 48px;
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.left-content-img {
+    position: absolute;
+    width: 10%;
+    top: -310px;
+    left: 0;
+}
+
+h2 {
+    font-size: 27px;
+    padding: 24px 0px;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 28%;
+    margin: 2px;
+}
+
+footer li {
+    color: hsl(270, 9%, 17%);
+    font-weight: 400;
+}
+
+.find-out {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    width: 100%;
+}
+
+.find-out-more {
+    width: 85%;
+    background-color: hsl(256, 26%, 20%);
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 64px;
+    position: relative;
+}
+
+.find-out-more h1 {
+    width: 39%;
+    font-size: 40px;
+    font-weight: 400;
+    align-self: center;
+}
+
+.button-find-out {
+    width: 15%;
+    height: 25%;
+    align-self: center;
+    z-index: 1;
+    border-width: 1.6px;
+}
+
+.how-we-work-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 34%;
+}
+
+.footer {
+    padding-top: 24px;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    height: 350px;
+    position: relative;
+}
+
+.footer-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 34%;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 104px 15px 104px;
+}
+
+.footer-logo {
+    z-index: 1;
+}
+
+.social-media img {
+    margin: 5px;
+}
+
+.footer-line {
+    width: 84%;
+    border-top: 1.5px solid hsl(289, 15%, 79%);
+    margin-left: 100px;
+}
+
+h4 {
+    color: hsl(273, 4%, 51%);
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 16px;
+}
+
+.footer-text p {
+    margin: 16px 0px;
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+}
+
+.our-company {
+    z-index: 1;
+}
